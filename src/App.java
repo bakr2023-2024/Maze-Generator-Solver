@@ -217,6 +217,7 @@ public class App {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Maze Generator+Solver");
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1280, 720);
         frame.setLayout(new BorderLayout());
         JPanel leftPanel = new JPanel();
